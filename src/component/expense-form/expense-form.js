@@ -32,6 +32,7 @@ class ExpenseForm extends React.Component {
   }
 
   render() {
+    const expensive = (this.state.price > 50) ? 'redExpense' : undefined;
     const { expense } = this.props;
     const buttonText = expense ? 'Update Expense' : 'Create Expense';
 
@@ -44,7 +45,7 @@ class ExpenseForm extends React.Component {
         value={this.state.name}
         onChange={this.handleChange} 
         />
-        <input 
+        <input className={expensive}
         type='number' 
         name='price'
         placeholder='Price'

@@ -45,6 +45,7 @@
     "react-test-renderer": "^16.4.0",
     "redux": "^4.0.0",
     "redux-devtools-extension": "^2.13.2",
+    "redux-mock-store": "^1.5.1",
     "sass-loader": "^7.0.1",
     "style-loader": "^0.21.0",
     "webpack": "^4.8.3",
@@ -53,5 +54,6 @@
     "webpack-merge": "^4.1.2",
     "uuid": "^3.2.1"
   },
-  "dependencies": {}
+  "dependencies": {
+  }
 }
