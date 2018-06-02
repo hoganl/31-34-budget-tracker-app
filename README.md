@@ -3,7 +3,7 @@
 **Version**: 1.0.0
 
 ## Overview
-This application allows a user to add a category and a price to their budget.
+This application allows a user to add, update, and remove a category to their budget. A user can add, update, remove an expense and price to a category.
 
 ## Getting Started
 The following devDependencies need to be installed:
@@ -55,6 +55,7 @@ To start the server, enter npm run watch in your terminal
 This application uses JavaScript and React library and sass library
 
 ## Change Log
-05-29-2018 5:00pm - Application now has a fully-functional, with create and delete. 
+05-29-2018 5:00pm - Application now has a fully-functional category create, delete, and update.
+05-30-2018 3:45pm - Application now has a fully-functional expense create, delete, and update.
 
 ## Credits and Collaborations
