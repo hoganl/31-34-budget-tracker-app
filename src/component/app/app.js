@@ -6,7 +6,8 @@ class App extends React.Component {
   render() {
     return (
       <div className='app'>
-        <h1>This is your budget tracker! Create a category and then add expenses with individual prices.</h1>
+        <h1>This is your budget tracker! 
+          Create a category and then add expenses with individual prices.</h1>
         <BrowserRouter>
           <div>
             <Route exact path='/' component={Dashboard} />
