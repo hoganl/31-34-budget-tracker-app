@@ -28,6 +28,7 @@ class CategoryForm extends React.Component {
 
   render() {
     const buttonText = this.props.category ? 'Update' : 'Create';
+    const clickColor = this.props.category ? 'updateColor' : undefined;
     return (
       <form onSubmit={this.handleSubmit}className='category-form'>
         <input 
@@ -37,7 +38,7 @@ class CategoryForm extends React.Component {
           value={this.state.name}
           onChange={this.handleChange}
         />
-        <button type='submit'>{buttonText} Category</button>
+        <button className={clickColor} type='submit'>{buttonText} Category</button>
       </form>
     );
   }

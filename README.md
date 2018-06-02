@@ -1,6 +1,6 @@
 # 31-34 Budget Tracker App
 **Author**: Lacy Hogan
-**Version**: 1.0.0
+**Version**: 1.0.2
 
 ## Overview
 This application allows a user to add, update, and remove a category to their budget. A user can add, update, remove an expense and price to a category.
@@ -36,6 +36,7 @@ The following devDependencies need to be installed:
   "react-test-renderer": "^16.4.0",
   "redux": "^4.0.0",
   "redux-devtools-extension": "^2.13.2",
+  "redux-mock-store": "^1.5.1",
   "sass-loader": "^7.0.1",
   "style-loader": "^0.21.0",
   "webpack": "^4.8.3",
@@ -51,11 +52,14 @@ package.json scripts must include:
 
 To start the server, enter npm run watch in your terminal
 
+To run the tests, enter npm run test in your terminal
+
 ## Architecture
 This application uses JavaScript and React library and sass library
 
 ## Change Log
 05-29-2018 5:00pm - Application now has a fully-functional category create, delete, and update.
 05-30-2018 3:45pm - Application now has a fully-functional expense create, delete, and update.
+6-1-2018 8:30pm - Application added redux-reporter and redux-session middleware and added tests.
 
 ## Credits and Collaborations
